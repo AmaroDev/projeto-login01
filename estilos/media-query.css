@@ -11,7 +11,12 @@ Desktop: 992px até 1200px
 
 @media screen and (min-width:768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #49a09d, #215681);
+        background-image: url(../imagens/telhado02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+       /* background-image: linear-gradient(to top, #49a09d, #215681);*/
     }
     section#login {
         width: 80vw;
@@ -35,7 +40,12 @@ Desktop: 992px até 1200px
 @media screen and (min-width:992px) {
 
     body {
-        background-image: linear-gradient(to top, #49a09d, #824c2c);
+        
+        background-image: url(../imagens/telhado02.png);        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        /*background-image: linear-gradient(to top, #49a09d, #824c2c);*/
     }
 
 
@@ -44,6 +54,7 @@ Desktop: 992px até 1200px
     }
 
     section#login > div#imagem {
+    
         float: left;
         width: 50%;
         height: 100%;
